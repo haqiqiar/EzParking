@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.menanga.ezparking.client.DetailRekapActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="Sisa kendaraan di tempat parkir :"
+            android:textSize="21sp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="70dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/motor" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="120"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:layout_marginRight="50dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/car" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="20"
+                android:gravity="center_vertical"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:text="Total seluruh kendaraan"
+            android:textSize="21sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/motor" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="200"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:layout_marginRight="50dp"/>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/car" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="20"
+                android:gravity="center_vertical"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="15dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="21sp"
+            android:text="Pendapatan"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_height="wrap_content">
+            <TableRow>
+
+                <TextView
+                    android:text="Jenis Kendaraan"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="Jumlah"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="Biaya"
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="Total"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="Motor"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textSize="16sp"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="Rp 3000"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="600000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textSize="16sp"
+                    android:layout_marginRight="10dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="Mobil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textSize="16sp"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textSize="16sp"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="Rp 5000"
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:text="100000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Total"
+                    android:layout_column="3"
+                    android:textAlignment="center"
+                    android:textSize="17sp" />
+                <TextView
+                    android:text="700000"
+                    android:textSize="17sp" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_back"
+        android:text="Kembali"
+        android:textSize="16sp"
+        android:id="@+id/btn_dr_back"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

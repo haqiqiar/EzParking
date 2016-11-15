@@ -30,13 +30,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".client.CMainActivity" />
         <activity android:name=".client.OutActivity" />
         <activity android:name=".client.InActivity" />
         <activity android:name=".client.RekapActivity" />
-        <activity android:name=".client.CodeResultActivity"></activity>
-
+        <activity android:name=".client.CodeResultActivity" />
         <activity
             android:name=".server.SFindActivity"
             android:label="@string/title_activity_sfind" />
@@ -56,6 +54,12 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity android:name=".client.SuccesPayActivity" />
+        <activity android:name=".client.SuccessPayActivity" />
+        <activity android:name=".client.MemberPaidActivity" />
+        <activity android:name=".client.DetailRekapActivity" />
+        <activity android:name=".client.PhotoActivity" />
+        <activity android:name=".client.TicketActivity"></activity>
     </application>
 
 </manifest>

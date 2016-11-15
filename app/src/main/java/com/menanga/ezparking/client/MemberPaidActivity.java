@@ -9,28 +9,27 @@ import com.menanga.ezparking.R;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
-public class OutActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler{
-
+public class MemberPaidActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler{
     private ZXingScannerView mScannerView;
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_out);
+        setContentView(R.layout.activity_member_paid);
         mScannerView = new ZXingScannerView(this);
         setContentView(mScannerView);
         mScannerView.setResultHandler(this);
         mScannerView.startCamera();
     }
+
     @Override
-    public void onPause(){
+    protected void onPause() {
         super.onPause();
         mScannerView.stopCamera();
     }
+
     @Override
     public void handleResult(Result result) {
-        //Log.e("handler", result.getText());
-        // Log.e("handler", result.getBarcodeFormat().toString());
-        Intent ints = new Intent(getBaseContext(),CodeResultActivity.class);
+        Intent ints = new Intent(getBaseContext(),SuccessPayActivity.class);
         startActivityForResult(ints, 0);
     }
 }
