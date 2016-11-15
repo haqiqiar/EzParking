@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_event_note_black_24dp"
+            android:gravity="center"
+            android:id="@+id/mnama"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Schematics ITS"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_access_time_black_24dp"
+            android:id="@+id/mwaktu"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="15:00 || Jumat, 24 Feb 2016"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/malamat"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:text="Gedung Robotika ITS, Jalan Raya ITS No. 1 Surabaya"
+            />
+        <Button
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:background="#ffffff"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Drive Me"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
