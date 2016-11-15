@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".client.CMainActivity" />
+        <activity android:name=".client.OutActivity" />
+        <activity android:name=".client.InActivity" />
+        <activity android:name=".client.RekapActivity" />
+        <activity android:name=".client.CodeResultActivity"></activity>
     </application>
 
 </manifest>
