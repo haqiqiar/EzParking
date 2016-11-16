@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="#FFF"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -81,6 +82,7 @@
             android:layout_weight="1"
             android:paddingLeft="20sp"
             android:paddingRight="20sp"
-            android:src="@drawable/motor" />
+            android:src="@drawable/motor"
+            android:id="@+id/imageView2" />
     </LinearLayout>
 </LinearLayout>

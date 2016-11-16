@@ -5,6 +5,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#FFF"
     tools:context="com.menanga.ezparking.client.CodeResultActivity">
 
     <LinearLayout
@@ -14,6 +15,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="95dp"
+            android:background="#FAFAFA"
             android:layout_weight="1"
             android:drawableLeft="@drawable/pay_cash"
             android:text="Bayar Langsung"
@@ -23,6 +25,7 @@
             android:layout_height="95dp"
             android:layout_weight="1"
             android:text="Bayar via Member"
+            android:background="#FAFAFA"
             android:drawableLeft="@drawable/pay_member"
             android:id="@+id/btn_cr_payon"/>
     </LinearLayout>

@@ -82,7 +82,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
-                    android:background="@drawable/sbtn_back"
+                    android:background="#FAFAFA"
                     android:drawableTop="@drawable/ic_sfind"
                     android:text="Find Parking" />
 
@@ -93,7 +93,7 @@
                     android:layout_width="0dp"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/sbtn_back"
+                    android:background="#FAFAFA"
                     android:drawableTop="@drawable/ic_sprof"
                     android:text="My Account" />
 
@@ -111,7 +111,7 @@
                     android:layout_width="0dp"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/sbtn_back"
+                    android:background="#FAFAFA"
                     android:drawableTop="@drawable/ic_sscan"
                     android:text="Scan Tickets" />
 
@@ -122,7 +122,7 @@
                     android:layout_width="0dp"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/sbtn_back"
+                    android:background="#FAFAFA"
                     android:drawableTop="@drawable/ic_shistory"
                     android:text="PARKING HISTORY" />
 

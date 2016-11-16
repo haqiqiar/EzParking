@@ -26,6 +26,7 @@ public class SuccessPayActivity extends AppCompatActivity {
         public void onClick(View view) {
             switch (view.getId()){
                 case R.id.btn_sp_back:
+                    finish();
                     Intent saa = new Intent(getBaseContext(),OutActivity.class);
                     startActivityForResult(saa,0);
                     break;

@@ -2,61 +2,66 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAFAFA"
 
     android:orientation="vertical">
+
     <ImageView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/img_acara1"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"/>
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_acara1" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <TextView
-            android:layout_weight="1"
-            android:drawableTop="@drawable/ic_event_note_black_24dp"
-            android:gravity="center"
             android:id="@+id/mnama"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_event_note_black_24dp"
+            android:gravity="center"
             android:text="Schematics ITS"
 
             />
+
         <TextView
+            android:id="@+id/mwaktu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_access_time_black_24dp"
-            android:id="@+id/mwaktu"
             android:gravity="center"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:text="15:00 || Jumat, 24 Feb 2016"
-            />
+            android:text="15:00 || Jumat, 24 Feb 2016" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <TextView
+            android:id="@+id/malamat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_place_black_24dp"
-            android:id="@+id/malamat"
             android:gravity="center"
+            android:text="Gedung Robotika ITS, Jalan Raya ITS No. 1 Surabaya" />
+
+        <TextView
+            android:id="@+id/mparkir"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="Gedung Robotika ITS, Jalan Raya ITS No. 1 Surabaya"
-            />
-        <TextView
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_account_balance_wallet_black_24dp"
-            android:id="@+id/mparkir"
             android:gravity="center"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:text="Rp 3000"
-            />
+            android:text="Rp 3000" />
     </LinearLayout>
 
 
