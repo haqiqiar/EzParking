@@ -42,13 +42,15 @@ public class SMainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayUseLogoEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         //getSupportActionBar().setLogo(R.drawable.ic_access_time_black_24dp);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_smain);
         Button scan = (Button) findViewById(R.id.btnScan);
         Button history = (Button) findViewById(R.id.btnHistory);
         Button find = (Button) findViewById(R.id.btnFind);
         Button profile = (Button) findViewById(R.id.btnProfile);
 
         slider = (CustomViewPager) findViewById(R.id.fslider);
+        slider.setOffscreenPageLimit(2);
+
         sAdapter = new SliderAdapter(this);
         slider.setAdapter(sAdapter);
         handler = new Handler();
@@ -56,7 +58,7 @@ public class SMainActivity extends AppCompatActivity {
 
 
         currentPage = 0;
-        NUM_PAGES = 5;
+        NUM_PAGES = 2;
 
 
         profile.setOnClickListener(op);

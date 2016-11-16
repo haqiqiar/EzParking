@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import com.menanga.ezparking.R;
 
+
+
+
 /**
  * Created by haqiqi on 14-Nov-16.
  */
@@ -25,8 +28,8 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     private int[] sliderImagesId = new int[]{
-            //R.event.img_acara_1, R.drawable.img_acara_2, R.drawable.img_acara_3,
-            //R.drawable.img_acara_4, R.drawable.img_acara_5,
+            R.drawable.img_acara1, R.drawable.img_acara2, R.drawable.img_acara4
+            //R.drawable.img_acara1, R.drawable.img_acara2
     };
 
     @Override

@@ -31,6 +31,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.menanga.ezparking.client.CMainActivity;
+import com.menanga.ezparking.server.SMainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -90,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<C
             @Override
             public void onClick(View view) {
                 //attemptLogin();
-                Intent ins = new Intent(getBaseContext(),CMainActivity.class);
+                Intent ins = new Intent(getBaseContext(),SMainActivity.class);
                 startActivityForResult(ins,0);
             }
         });
